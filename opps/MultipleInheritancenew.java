@@ -4,6 +4,7 @@ interface car{
 }
 interface bus{
     public void b();
+
 }
 class vichal implements car,bus {
     @Override
