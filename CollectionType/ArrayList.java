@@ -10,7 +10,11 @@ public class ArrayList {
         test.add(5);
         test.add(4);
         test.add(4);
-        System.out.println(test);
+        for (int a :test){
+            System.out.println(a);
+        }
+        //index is not here
+        //System.out.println(test);
         //here we can see repeat value take place and direct print by the help of sout
 
 
